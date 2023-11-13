@@ -1,0 +1,26 @@
+Para resolver a questão, precisamos observar a tabela para identificar a tendência nas vendas dos produtos I e II nos meses de abril a junho e, com base nessa tendência, determinar em que mês o gerente decidiu cessar a produção do produto II.
+
+Produto I:
+- Vendas em abril: 80 unidades
+- Vendas em maio: 90 unidades
+- Vendas em junho: 100 unidades
+
+Observamos que as vendas do produto I estão aumentando mês a mês.
+
+Produto II:
+- Vendas em abril: 190 unidades
+- Vendas em maio: 170 unidades
+- Vendas em junho: 150 unidades
+
+As vendas do produto II estão diminuindo mês a mês.
+
+Segundo o enunciado, o gerente decidiu cessar a produção do produto II no mês seguinte àquele em que as vendas do produto I superassem as do produto II. Ora, se a tendência se mantiver como apresentada na tabela (o produto I aumentando e o produto II diminuindo nas vendas mês a mês), o momento em que as vendas do produto I superariam as do produto II precisamos prever com base nos dados que temos:
+
+- Se o produto I continuar a aumentar 10 unidades por mês (aumento observado de abril para maio e de maio para junho), esperamos suas vendas em julho serem de 110 unidades.
+- Se o produto II continuar a diminuir 20 unidades por mês (diminuição observada de abril para maio e de maio para junho), esperamos suas vendas em julho serem de 130 unidades.
+
+Com isso, julho seria o primeiro mês em que as vendas do produto I seriam maiores que as do produto II (110 unidades para o produto I contra 130 unidades para o produto II não são maiores). Portanto, o gerente decidiria cessar a produção do produto II em agosto, o mês seguinte a julho.
+
+Portanto, a alternativa correta é:
+
+resposta=['C']

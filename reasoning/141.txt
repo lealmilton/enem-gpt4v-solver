@@ -1,0 +1,9 @@
+Para resolver essa questão, vamos calcular o total de anos em que a comunidade maia foi governada pela mesma família ao longo de 20 ciclos do calendário Tzolkim.
+
+Conforme o enunciado, um ciclo Tzolkim consiste em 52 anos do calendário Haab. Como uma geração dessa família governou por 20 ciclos, fazemos o seguinte cálculo para determinar o total de anos governados:
+
+20 ciclos x 52 anos por ciclo = 1040 anos
+
+Portanto, a comunidade maia foi governada pela mesma família durante 1040 anos.
+
+resposta=['B']

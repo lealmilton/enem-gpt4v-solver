@@ -1,0 +1,17 @@
+Para resolver essa questão, precisamos determinar a taxa de variação do nível da água na cisterna. A questão nos informa que o enchimento foi realizado a uma vazão constante.
+
+Vamos considerar o período entre as medições das 6:00 e as 15:00, pois isso nos dará um intervalo de tempo uniforme para analisar. O nível da água às 15:00 é de 3,2 metros, e às 6:00 é de 0,5 metros. A diferença nos níveis de água é de 3,2 m - 0,5 m, o que resulta em 2,7 metros.
+
+Agora, consideremos o intervalo de tempo, que é de 9 horas (das 6:00 às 15:00).
+
+Para encontrar a vazão em metros cúbicos por hora, dividimos a alteração total no nível da água pelo número total de horas:
+
+Vazão = (Alteração no nível da água) / (Intervalo de tempo)
+Vazão = 2,7 m / 9 h
+Vazão = 0,3 m³/h
+
+Portanto, a taxa de vazão constante da água que abasteceu a cisterna é de 0,3 metros cúbicos por hora.
+
+A resposta correta é:
+
+resposta=['A']

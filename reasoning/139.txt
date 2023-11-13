@@ -1,0 +1,53 @@
+Para resolver essa questão, precisamos calcular o gasto calórico total para cada dia da semana e identificar em qual dia esse gasto é maior. O gasto calórico de cada atividade é dado por hora, então devemos multiplicar as horas gastas em cada atividade pelo seu respectivo gasto calórico e somar todos os resultados para obter o gasto calórico total de cada dia.
+
+Seguindo os dados fornecidos na imagem:
+
+Gasto calórico por cada atividade física:
+
+- Caminhar: 248 cal/h
+- Correr: 764 cal/h
+- Andar de bicicleta: 356 cal/h
+- Jogar futebol: 492 cal/h
+
+Agora, vamos calcular o gasto calórico diário:
+
+**Segunda-feira:**
+- Caminhar: 1,0 h * 248 cal/h = 248 cal
+- Correr: 1,0 h * 764 cal/h = 764 cal
+- Andar de bicicleta: 0,0 h * 356 cal/h = 0 cal
+- Jogar futebol: 0,0 h * 492 cal/h = 0 cal
+- Total = 248 + 764 + 0 + 0 = 1012 cal
+
+**Terça-feira:**
+- Caminhar: 0,5 h * 248 cal/h = 124 cal
+- Correr: 1,0 h * 764 cal/h = 764 cal
+- Andar de bicicleta: 0,5 h * 356 cal/h = 178 cal
+- Jogar futebol: 1,0 h * 492 cal/h = 492 cal
+- Total = 124 + 764 + 178 + 492 = 1558 cal
+
+**Quarta-feira:**
+- Caminhar: 0,0 h * 248 cal/h = 0 cal
+- Correr: 1,5 h * 764 cal/h = 1146 cal
+- Andar de bicicleta: 1,0 h * 356 cal/h = 356 cal
+- Jogar futebol: 0,5 h * 492 cal/h = 246 cal
+- Total = 0 + 1146 + 356 + 246 = 1748 cal
+
+**Quinta-feira:**
+- Caminhar: 0,0 h * 248 cal/h = 0 cal
+- Correr: 2,0 h * 764 cal/h = 1528 cal
+- Andar de bicicleta: 0,0 h * 356 cal/h = 0 cal
+- Jogar futebol: 0,0 h * 492 cal/h = 0 cal
+- Total = 0 + 1528 + 0 + 0 = 1528 cal
+
+**Sexta-feira:**
+- Caminhar: 0,0 h * 248 cal/h = 0 cal
+- Correr: 0,5 h * 764 cal/h = 382 cal
+- Andar de bicicleta: 0,0 h * 356 cal/h = 0 cal
+- Jogar futebol: 2,5 h * 492 cal/h = 1230 cal
+- Total = 0 + 382 + 0 + 1230 = 1612 cal
+
+Comparando os gastos calóricos totais de cada dia, o maior gasto calórico ocorre na quarta-feira com 1748 calorias.
+
+Portanto, a resposta correta é:
+
+resposta=['C']

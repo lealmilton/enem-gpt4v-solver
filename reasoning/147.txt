@@ -1,0 +1,9 @@
+Para resolver essa questão, precisamos identificar o jogador que está na mesma direção da linha de passe do jogador Q₁. Observando a figura, podemos inferir que o ângulo formado entre Q₁, A e um dos jogadores da equipe deve ser igual ao ângulo α dado por ÂQB.
+
+Os jogadores estão localizados ao longo de arcos de círculos concêntricos centrados no ponto A. O jogador para o qual a bola será passada deve estar sobre a extensão da linha da trajetória da bola que passa por A e B.
+
+Podemos visualizar que o jogador Q₂ está muito atrás, enquanto Q₃, Q₄ e Q₅ estão nos mesmos arcos dos pontos A e B, mas Q₃ e Q₄ estão fora da linha de direção formada pela extensão AB. O jogador Q₆ está claramente fora do alinhamento.
+
+Sendo assim, Q₅ é o jogador que está diretamente na linha da trajetória pretendida da bola, que parte de Q₁ e passa pelos pontos A e B. Portanto, Q₅ é o jogador que vai receber a bola.
+
+resposta=['E']

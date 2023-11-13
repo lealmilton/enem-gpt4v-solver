@@ -1,0 +1,20 @@
+Para resolvermos essa questão, precisamos interpretar o gráfico de distância pelo tempo e relacionar com as trajetórias desenhadas.
+
+O gráfico mostra que o vigilante começa na base a uma distância zero. Conforme o tempo progride (de 0 a 10 minutos), a distância do vigilante em relação à base aumenta linearmente, indicando um movimento uniforme direcionado para longe da base. Isso corresponde à primeira parte do trajeto com uma linha reta.
+
+Em seguida, de 10 a 20 minutos, o vigilante mantém uma distância constante em relação à base, o que implica que ele está parado ou circulando ao redor de um ponto a essa distância constante. Isso pode representar um patrulhamento em uma determinada área ou posição.
+
+Por fim, de 20 a 30 minutos, a distância do vigilante à base diminui linearmente até voltar ao ponto de partida. Isso significa que ele está retornando à base em um movimento uniforme.
+
+A única trajetória que corresponde à descrição fornecida pelo gráfico é a opção que mostra o vigilante se afastando em linha reta, permanecendo por algum tempo em um mesmo ponto ou área e retornando pelo mesmo caminho.
+
+Olhando as opções de trajetória:
+
+- A: Mostra um trajeto que se afasta em linha reta e retorna, mas tem formas triangulares apontando em dois sentidos diferentes, o que não condiz com a parada ou patrulha em um mesmo local.
+- B: Mostra claramente o movimento para fora, a parada e o retorno pelo mesmo caminho.
+- C: Mostra um trajeto que se afasta em duas direções diferentes, o que não é coerente com o gráfico.
+- D: Mostra um trajeto que apenas se afasta da base, sem retorno.
+
+A trajetória correta é a opção que reflete o movimento de ida, a estagnação a uma distância constante e o retorno, que, neste caso, é a opção B.
+
+resposta=['B']

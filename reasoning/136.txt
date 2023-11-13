@@ -1,0 +1,13 @@
+Para resolver essa questão, vamos seguir os passos dados pela informação contida na imagem:
+
+1. A questão informa que o consumo ideal de carboidratos antes do exercício é de 1 grama por minuto de caminhada.
+2. O casal realizará 30 minutos de caminhada, logo eles precisarão de 30 gramas de carboidratos cada um.
+3. Como são duas pessoas, elas precisarão de um total de 60 gramas de carboidratos (30 gramas cada um).
+4. Cada pacote de pão de forma fornece 15 gramas de carboidratos.
+5. Para descobrir a quantidade mínima de pacotes, vamos dividir a quantidade total de carboidratos necessária (60 gramas) pela quantidade de carboidratos por pacote (15 gramas): 
+
+\[ \frac{60\ gramas}{15\ gramas/pacote} = 4\ pacotes \]
+
+Então, eles precisarão de 4 pacotes de pão de forma para atingirem a quantidade ideal de carboidratos para os dois antes de 30 minutos de caminhada.
+
+resposta=['C']

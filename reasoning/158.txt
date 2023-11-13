@@ -1,0 +1,28 @@
+Para resolver essa questão, vamos considerar o procedimento descrito para o sorteio dos números de inscrição. Como o número será escolhido em duas etapas, uma para as dezenas e outra para as unidades, precisamos calcular as probabilidades separadamente para cada etapa e, em seguida, multiplicá-las para obter a probabilidade de o evento ocorrer.
+
+1. Primeira etapa (sorteio das dezenas):
+- Para o número 50: O algarismo das dezenas é 5, que será sorteado na primeira urna. Há 6 bolas na primeira urna (0, 1, 2, 3, 4 e 5, já que o número máximo é 55), assim a chance de sortear o 5 é de 1 em 6.
+
+2. Segunda etapa (sorteio das unidades):
+- Para o número 50: O algarismo das unidades é 0. Depois de sortear a dezena 5, a segunda urna terá somente uma bola, pois o único número possível com dezena 5 e na faixa de 01 a 55 é o 50. Portanto, a probabilidade de sortear a unidade 0 é de 1 em 1.
+
+Agora multiplicamos as probabilidades das duas etapas para obter a probabilidade total de sortear o número 50:
+- Probabilidade para o número 50: (1/6) * (1/1) = 1/6
+
+Para o número 02, o processo é similar:
+1. Primeira etapa (sorteio das dezenas):
+- O algarismo das dezenas é 0, e há 6 bolas na primeira urna. Assim, a chance de sortear o 0 é de 1 em 6.
+
+2. Segunda etapa (sorteio das unidades):
+- Para o número 02: Depois de sortear a dezena 0, as possíveis unidades são de 1 a 9 (não pode ser 0, pois o número mínimo é 01), então há 9 possíveis bolas para as unidades. A chance de sortear o 2 é de 1 em 9.
+
+Agora multiplicamos as probabilidades das duas etapas para obter a probabilidade total de sortear o número 02:
+- Probabilidade para o número 02: (1/6) * (1/9) = 1/54
+
+Comparando as probabilidades:
+- Para o número 50: 1/6
+- Para o número 02: 1/54
+
+Obviamente, 1/6 é maior que 1/54. Então, a probabilidade de ser sorteado o número 50 é maior.
+
+resposta=['A']

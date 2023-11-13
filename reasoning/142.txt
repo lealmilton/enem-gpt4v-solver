@@ -1,0 +1,18 @@
+Para resolver a questão, consideremos as informações sobre o teorema de Pitágoras e a relação entre as áreas dos círculos.
+
+Dados três círculos com diâmetros correspondentes aos lados de um triângulo retângulo, temos:
+- \( \text{Área}(C_1) \) é a área do círculo com diâmetro a (hipotenusa).
+- \( \text{Área}(C_2) \) é a área do círculo com diâmetro b (cateto).
+- \( \text{Área}(C_3) \) é a área do círculo com diâmetro c (cateto).
+
+Conforme o teorema de Pitágoras, \(a^2 = b^2 + c^2\). Em termos de áreas, isso implica que a área do círculo \(C_1\) é igual à soma das áreas dos círculos \(C_2\) e \(C_3\), pois a área de um círculo é proporcional ao quadrado do seu diâmetro.
+
+O professor afirmou que a área da sua pizza é maior do que a soma das áreas das outras duas pizzas. Isso só seria possível se o ângulo α fosse agudo, ou seja, menor que 90 graus. Em um triângulo retângulo, a medida da hipotenusa é maior que a de qualquer um dos catetos e, consequentemente, o círculo formado com essa hipotenusa como diâmetro terá uma área maior que qualquer um dos círculos formados pelos catetos.
+
+Entretanto, se o ângulo α fosse obtuso (entre 90º e 180º), então a área correspondente a essa "fatia" da pizza do professor seria menor do que a soma das áreas das outras duas "fatias". Se o ângulo fosse reto ou maior (entre 180º e 360º), a situação seria impossível, pois não resultaria em um triângulo.
+
+Considerando que a área do círculo proporcional à sua pizza é maior do que a soma das áreas dos círculos proporcionais às pizzas dos amigos, e o fato de que isso é verdadeiro em um triângulo retângulo, podemos afirmar que o ângulo α é agudo.
+
+Portanto, a única afirmação correta é que 0º < α < 90º.
+
+resposta=['A']

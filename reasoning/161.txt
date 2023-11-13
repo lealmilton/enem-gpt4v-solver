@@ -1,0 +1,17 @@
+A questão envolve a interpretação de uma situação em que uma pessoa ingere bebidas alcoólicas e apresenta a seguinte informação: ao final da primeira hora após a ingestão, a concentração de álcool (C) no sangue corresponde a aproximadamente 90% da quantidade (q) de álcool ingerida, e a eliminação total dessa concentração pode demorar até 12 horas.
+
+De acordo com essa informação, a relação entre a concentração de álcool no sangue (C) e a quantidade de álcool ingerida (q) é que C é 90% de q. Matematicamente, 90% corresponde a 0,9, então a relação é:
+
+C = 0,9q
+
+Olhando para as opções fornecidas na questão, a opção correta é aquela que matematicamente expressa essa relação. Vamos analisá-las:
+
+A) C = 0,9q (esta opção expressa corretamente que C é 90% de q)
+B) C = 0,1q (esta opção indicaria que C é 10% de q, o que não está correto)
+C) C = 1 − 0,1q (esta opção indicaria que C é o complemento de 10% de q, não é o caso)
+D) C = 1 − 0,9q (esta opção também não expressa o que foi informado)
+E) C = q − 10 (esta opção não faz sentido em termos percentuais e não reflete a relação descrita)
+
+Portanto, a opção correta é a primeira, a opção A.
+
+resposta=['A']

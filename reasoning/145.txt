@@ -1,0 +1,30 @@
+Para responder a esta questão, precisamos calcular a média, a mediana e a moda das quantidades de viagens realizadas, conforme mostradas no gráfico de barras.
+
+A moda é o valor que aparece com mais frequência. No gráfico, podemos ver que o valor que mais aparece é 5 viagens realizadas por 7 motoristas. Então, a moda é 5.
+
+Para calcular a mediana, que é o valor do meio quando os dados estão em ordem crescente, é preciso organizar os dados. Como há 160 motoristas, o valor mediano vai estar entre o 80º e o 81º valor. Observando o gráfico, vemos que a mediana também será 5, pois mais de 80 motoristas realizaram 5 ou menos viagens.
+
+A média é a soma de todas as viagens realizadas dividida pelo número total de motoristas. Para calcular a média a partir deste gráfico, multiplicamos o número de viagens pela quantidade de motoristas que realizaram essas viagens e somamos esses produtos. Em seguida, dividimos pela quantidade total de motoristas (160).
+
+A soma total de viagens pode ser calculada assim (considerando a contagem de viagens por barra):
+0 viagens * 5 motoristas = 0
+1 viagem * 9 motoristas = 9
+2 viagens * 20 motoristas = 40
+3 viagens * 30 motoristas = 90
+4 viagens * 40 motoristas = 160
+5 viagens * 7 motoristas = 35
+6 viagens * 0 motoristas = 0 (zero ocorre porque não há barra correspondente a 6 viagens)
+7 viagens * 5 motoristas = 35
+8 viagens * 1 motorista = 8
+9 viagens * 1 motorista = 9
+10 viagens * 1 motorista = 10
+11 viagens * 1 motorista = 11
+
+Agora, somamos todas essas viagens: 0 + 9 + 40 + 90 + 160 + 35 + 0 + 35 + 8 + 9 + 10 + 11 = 407 viagens no total.
+
+Calculamos a média:
+Média = 407 viagens / 160 motoristas = 2,54375
+
+Logo, podemos ver que a moda é igual à mediana (ambas são 5) e ambas são maiores do que a média (aproximadamente 2,54). Portanto, a alternativa correta é:
+
+resposta=['C']

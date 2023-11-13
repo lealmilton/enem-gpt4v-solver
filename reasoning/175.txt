@@ -1,0 +1,23 @@
+Para resolver essa questão, precisamos calcular a área ocupada pela calçada ao redor da piscina. A área total já é dada (400 m²) e sabemos que a piscina é cercada por uma calçada de largura constante de 5 metros. 
+
+Vamos chamar o lado do quadrado que representa a piscina de 'L', que, pela área dada, pode ser encontrada pela raiz quadrada da área da piscina:
+
+Área da piscina = L² = 400 m²
+L = √400
+L = 20 m
+
+Os novos lados do quadrado que incluirão a calçada terão 5 m adicionais de cada lado da piscina, o que significa que cada lado do novo quadrado será 20 m + 5 m + 5 m = 30 m.
+
+A área do novo quadrado será:
+
+Área do novo quadrado = Lado após calçada² = 30 m * 30 m = 900 m²
+
+Por fim, para encontrar a área ocupada apenas pela calçada, subtraímos a área da piscina da área do novo quadrado:
+
+Área da calçada = Área do novo quadrado - Área da piscina
+Área da calçada = 900 m² - 400 m²
+Área da calçada = 500 m²
+
+Portanto, a medida da área, em metro quadrado, ocupada pela calçada é de 500 m².
+
+resposta=['D']

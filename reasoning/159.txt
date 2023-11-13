@@ -1,0 +1,18 @@
+Para resolver essa questão, devemos identificar o padrão com o qual a intensidade luminosa diminui conforme aumenta a profundidade. A partir da imagem, podemos observar o seguinte padrão:
+
+- Na superfície (0 m): \( L_0 \)
+- A 1 metro de profundidade: \( \frac{2}{3} L_0 \)
+- A 2 metros de profundidade: \( \frac{4}{9} L_0 \)
+- A 3 metros de profundidade: \( \frac{8}{27} L_0 \)
+
+Analisando a relação entre a profundidade e a intensidade luminosa, podemos ver que a cada metro adicional de profundidade, o numerador da fração é multiplicado por 2 e o denominador é multiplicado por 3. Ou seja, quando a profundidade aumenta em 1 metro, a intensidade luminosa é multiplicada por \( \frac{2}{3} \).
+
+Com base nisso, para uma profundidade de 6 metros, aplicaríamos o padrão seis vezes:
+
+- A 4 metros de profundidade: \( \frac{16}{81} L_0 \) (multiplica o numerador e o denominador dos 3 metros por 2 e por 3 respectivamente).
+- A 5 metros de profundidade: \( \frac{32}{243} L_0 \) (o mesmo processo para os 4 metros).
+- A 6 metros de profundidade: \( \frac{64}{729} L_0 \) (mesmo processo para os 5 metros).
+
+Portanto, a intensidade luminosa correspondente a uma profundidade de 6 metros é:
+
+resposta=['D']

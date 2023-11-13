@@ -1,0 +1,19 @@
+Para resolver essa questão, vamos primeiro compreender o ciclo de funcionamento da torneira:
+
+1. A torneira libera água durante 3 segundos quando as mãos são colocadas sob a torneira.
+2. A seguir, há um intervalo de espera de 3 segundos (sem liberação de água).
+3. Depois do intervalo de espera, há um enxágue de 3 segundos.
+
+O ciclo se repete se as mãos permanecerem sob a torneira. O enunciado também menciona que a vazão de água é constante, o que significa que o volume de água liberado por segundo é sempre o mesmo durante os períodos de liberação.
+
+Agora vamos analisar os gráficos para ver qual descreve o volume de água acumulado em função do tempo:
+
+- O gráfico (A) mostra um aumento constante no volume de água sem interrupções, o que não corresponderia ao intervalo de espera de 3 segundos sem liberação de água.
+- O gráfico (B) mostra um aumento, seguido por um patamar constante, e outro aumento. Ele reflete os períodos de liberação e pausa descritos no enunciado, mas o patamar constante se estende por mais de 3 segundos, o que contradiz as informações fornecidas.
+- O gráfico (C) mostra um aumento repentino do volume de água, indicando uma liberação instantânea do volume total; isso não reflete o fluxo constante de água durante os períodos de liberação descritos.
+- O gráfico (D) também mostra um aumento e patamares constantes correspondentes aos períodos de liberação de água e pausa, mas o volume de água aumenta após cada ciclo de três fases, o que não é possível, pois o ciclo se repete enquanto as mãos estão embaixo da torneira.
+- O gráfico (E) mostra padrões como (D), com períodos de aumento e patamares constantes, mas com interrupções de 3 segundos entre cada patamar, o que corresponde exatamente ao ciclo descrito: 3 segundos de liberação, 3 segundos de pausa, seguidos por mais 3 segundos de liberação de água.
+
+Portanto, a resposta correta é a do gráfico que consiste em períodos de aumento constante do volume, que correspondem à liberação da água, e patamares onde o volume se mantém constante, que correspondem aos intervalos de espera.
+
+resposta=['E']

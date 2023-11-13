@@ -1,0 +1,16 @@
+Para resolver esta questão, primeiro vamos entender o movimento da roda-gigante e o significado do gráfico de altura versus tempo.
+
+A roda-gigante está girando com velocidade angular constante, o que significa que a cadeira onde a pessoa está sentada faz uma volta completa em intervalos de tempo iguais. Quando a pessoa está no ponto mais alto, sua altura em relação ao solo é a máxima. Conforme a roda gira, esta altura diminui até a pessoa chegar ao ponto mais baixo, onde a altura é mínima, e depois aumenta novamente até a pessoa retornar ao ponto mais alto.
+
+A forma deste movimento é cíclica e o gráfico correspondente deve refletir isso, mostrando picos (quando a pessoa está no ponto mais alto) e vales (quando a pessoa está no ponto mais baixo).
+
+Analisando os gráficos:
+- O gráfico (A) mostra uma variação contínua e suave da altura ao longo do tempo, característica de um movimento harmônico como o de uma roda-gigante. Este é o comportamento esperado.
+- O gráfico (B) mostra mudanças bruscas de altura que permanecem constantes por um tempo e depois mudam abruptamente. Isso não reflete o movimento suave e contínuo de uma roda-gigante.
+- O gráfico (C) é semelhante ao gráfico (B) e também mostra mudanças de altura em etapas, o que não condiz com o movimento de uma roda-gigante.
+- O gráfico (D) tem uma amplitude variável, indicando que a altura máxima e mínima da cadeira está mudando com o tempo, o que não acontece em uma roda-gigante com velocidade angular constante.
+- O gráfico (E) apresenta um formato que sugere um movimento com períodos de constância na altura, o que não corresponde ao movimento contínuo de uma roda-gigante.
+
+Dessa forma, o gráfico que melhor representa o movimento da pessoa na roda-gigante é o gráfico (A).
+
+resposta=['A']

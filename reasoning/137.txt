@@ -1,0 +1,35 @@
+Para encontrar a medida de cada um dos cabos de aço na menor instalação possível, precisamos calcular o comprimento dos cabos nas três opções dadas, e então escolher o menor valor.
+
+Primeiro, vamos observar que estamos lidando com triângulos retângulos, onde o mastro do poste é um dos catetos, o cabo de aço é a hipotenusa, e um segmento horizontal do chão até o pé do poste seria o outro cateto. Para encontrar o comprimento da hipotenusa (o cabo de aço) em cada uma das opções, podemos usar as funções trigonométricas, em particular o cosseno, que é definido como a razão entre o cateto adjacente ao ângulo (neste caso, a altura h) e a hipotenusa l:
+
+cos(α) = h/l
+
+Reordenando a equação para resolver para l, temos:
+
+l = h/cos(α)
+
+Vamos calcular isso para cada uma das três opções:
+
+Opção I:
+h = 11 m
+α = 30°
+
+l_I = h/cos(30°) = 11 m / (√3/2) = 11 m * 2/√3 = 22/√3 m
+
+Opção II:
+h = 12 m
+α = 45°
+
+l_II = h/cos(45°) = 12 m / (1/√2) = 12 m * √2 = 12√2 m
+
+Opção III:
+h = 18 m
+α = 60°
+
+l_III = h/cos(60°) = 18 m / (1/2) = 18 m * 2 = 36 m
+
+Agora, precisamos comparar os três comprimentos. Devemos observar que 12√2 é aproximadamente 12*1,414 = 16,968, o que é menor do que 22/√3, pois 22/√3 é aproximadamente 22/1,732 = 12,704 e claramente menor que 36. Portanto, o menor comprimento de cabo é fornecido pela Opção I.
+
+Portanto, a resposta é:
+
+resposta=['A']

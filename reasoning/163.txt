@@ -1,0 +1,27 @@
+Para resolver essa questão, precisamos primeiro calcular o nível N de intensidade de som da nova máquina, usando a fórmula de decibéis fornecida:
+
+\[ N = 10 \cdot \log_{10}\left(\frac{I}{I_0}\right) \]
+
+Onde:
+- \( I \) é a intensidade do som da máquina,
+- \( I_0 \) é a intensidade de referência (\(1 \times 10^{-12} W/m^2\)).
+
+Temos que \( I \) é igual a \( 8 \times 10^{-8} W/m^2 \). Então, substituímos os valores para calcular \( N \):
+
+\[ N = 10 \cdot \log_{10}\left(\frac{8 \times 10^{-8}}{1 \times 10^{-12}}\right) \]
+
+Para resolver o logaritmo, consideramos que \(\log_{10}(10^x) = x\). Então,
+
+\[ N = 10 \cdot \log_{10}(8 \times 10^4) \]
+
+Como \( \log_{10}(8) \) é aproximadamente \( 0,9 \) (já que \( 2^3 = 8 \) e \( \log_{10}(2) \approx 0,3 \)), e considerando a dica da questão de que \( \log_{10}(2) \approx 0,3 \):
+
+\[ N = 10 \cdot (0,9 + 4) \]
+\[ N = 10 \cdot 4,9 \]
+\[ N = 49 \text{ dB} \]
+
+Agora que temos o nível de decibéis, podemos classificar o nível do som e determinar a medida preventiva apropriada. De acordo com o texto, a medida preventiva para o intervalo de 48 dB e 55 dB é a medida preventiva II.
+
+Portanto, o funcionário que operará a nova máquina deverá adotar a medida preventiva II.
+
+resposta=['B']

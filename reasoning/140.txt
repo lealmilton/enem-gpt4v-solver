@@ -1,0 +1,32 @@
+Vamos resolver a questão passo a passo:
+
+1. Primeiramente, precisamos calcular a quantidade de folhas de papel ofício necessárias neste bimestre baseando-nos na proporção dada pelo número de alunos matriculados.
+- No bimestre passado: 6.000 folhas para 1.200 alunos.
+- Proporção: 6.000 folhas / 1.200 alunos = 5 folhas por aluno.
+
+2. Agora, vamos aplicar essa proporção ao número atual de alunos para determinar quantas folhas são necessárias:
+- Neste bimestre: 1.150 alunos.
+- Necessidade atual: 1.150 alunos * 5 folhas por aluno = 5.750 folhas.
+
+3. Dado que as folhas são vendidas em embalagens de 100 unidades, precisamos descobrir o número de embalagens necessárias:
+- Embalagens necessárias: 5.750 folhas / 100 folhas por embalagem = 57,5 embalagens.
+Como não pode haver meia embalagem, a diretora precisará comprar 58 embalagens para obter a quantidade necessária de papel.
+
+4. O custo sem desconto para 58 embalagens a R$ 4,00 cada é:
+- Custo sem desconto: 58 embalagens * R$ 4,00 = R$ 232,00.
+
+5. A diretora tem R$ 220,00 para gastar, então precisamos calcular qual deve ser o preço com desconto para que ela possa comprar as 58 embalagens com o dinheiro disponível:
+- Custo com desconto: R$ 220,00 / 58 embalagens = aproximadamente R$ 3,7931 por embalagem.
+
+Por fim, para encontrar o desconto percentual, usamos a diferença entre o preço original (R$ 4,00) e o preço com desconto (aproximadamente R$ 3,7931), e dividimos pela preço original:
+
+Percentual de desconto = (Preço original - Preço com desconto) / Preço original * 100
+Percentual de desconto = (R$ 4,00 - R$ 3,7931) / R$ 4,00 * 100
+Percentual de desconto = R$ 0,2069 / R$ 4,00 * 100
+Percentual de desconto ≈ 5,17%
+
+O desconto necessário para que a compra fique dentro do orçamento de R$ 220,00 tem que estar no intervalo que inclui o valor 5,17%. Olhando as opções, podemos ver que o intervalo correto é o da alternativa A, que é (5%; 5,5%).
+
+Portanto, a resposta para a questão é:
+
+resposta=['A']

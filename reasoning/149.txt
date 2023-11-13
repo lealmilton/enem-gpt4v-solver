@@ -1,0 +1,19 @@
+Para resolver essa questão, precisamos calcular a probabilidade de o vencedor do sorteio ser um estudante do terceiro ano. De acordo com a informação fornecida, foram inscritos 200 estudantes de primeiro ano, 150 de segundo ano e 100 de terceiro ano. Cada estudante do primeiro ano tem um cartão com seu nome, cada estudante do segundo ano tem dois cartões com seu nome e cada estudante do terceiro ano tem três cartões com seu nome.
+
+Para calcular a probabilidade, primeiro determinamos o número total de cartões:
+
+- Estudantes de primeiro ano: 200 estudantes × 1 cartão = 200 cartões
+- Estudantes de segundo ano: 150 estudantes × 2 cartões = 300 cartões
+- Estudantes de terceiro ano: 100 estudantes × 3 cartões = 300 cartões
+
+O total de cartões é: 200 + 300 + 300 = 800 cartões.
+
+Agora, precisamos encontrar a probabilidade de um cartão pertencente a um estudante do terceiro ano ser sorteado. Há 300 cartões de estudantes de terceiro ano no total de 800 cartões. Assim, a probabilidade é:
+
+Probabilidade = Número de cartões de terceiro ano / Número total de cartões
+Probabilidade = 300 / 800
+Probabilidade = 3 / 8
+
+Portanto, a probabilidade de o vencedor do sorteio ser um estudante do terceiro ano é de 3/8.
+
+resposta=['C']

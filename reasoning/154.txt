@@ -1,0 +1,24 @@
+Analisando o gráfico, podemos ver que a massa corporal e a altura dos estudantes estão plotadas de tal forma que cada diamante representa uma quantidade de estudantes. 
+
+Para resolver a questão, precisamos identificar quais pontos indicam estudantes com massa corporal abaixo de 80 kg e altura acima de 1,65 m.
+
+Olhando para o gráfico, vemos imediatamente que o ponto correspondente a 140 kg é irrelevante, pois está acima da média de massa corporal de 80 kg.
+
+Em seguida, notamos que há dois pontos abaixo de 80 kg na escala de massa corporal: um está associado a uma altura menor que 1,65 m, e o outro está associado a uma altura maior que 1,65 m.
+
+Portanto, apenas o ponto que fica abaixo de 80 kg em massa e acima de 1,65 m em altura é relevante para a pergunta. Este ponto mostra 60 estudantes que correspondem aos critérios especificados pela questão.
+
+Sabendo que a amostra total tem 154 estudantes, usamos uma regra de três simples para calcular o percentual:
+
+60 estudantes ---- x%
+154 estudantes ---- 100%
+
+Para calcular o valor de x, fazemos:
+
+x = (60/154) * 100
+x ≈ 38.96%
+
+O percentual mais próximo disponível nas opções é de 40%.
+
+Portanto, a resposta correta é:
+resposta=['B']

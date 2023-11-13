@@ -1,0 +1,16 @@
+Para resolver essa questão, devemos analisar o gráfico que mostra o percentual de indivíduos imunizados contra a gripe A-H1N1 em diferentes categorias. Precisamos identificar a categoria com o menor percentual de imunizados, pois esta será a categoria mais exposta ao vírus da gripe A-H1N1.
+
+Olhando para o gráfico, temos:
+
+- Adultos entre 20 e 29 anos: a barra representa um valor de aproximadamente 45%.
+- Gestantes: a barra representa um valor próximo a 40%.
+- Doentes crônicos: a barra representa um valor próximo a 60%.
+- Indígenas: a barra representa um valor acima de 80%.
+- Crianças de 6 meses a 2 anos: a barra representa um valor pouco acima de 50%.
+- Trabalhadores da saúde: a barra está completa em 100%.
+
+A categoria com o menor percentual de imunizados é a das gestantes, com aproximadamente 40%.
+
+Portanto, a categoria mais exposta ao vírus da gripe A-H1N1, dentre as presentes no gráfico e excluindo os trabalhadores da saúde que estão completamente imunizados, é a das gestantes.
+
+resposta=['B']

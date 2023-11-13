@@ -1,0 +1,13 @@
+Para resolver essa questão, vamos calcular o tempo médio de espera para cada caixa, multiplicando o tempo de atendimento pelo número de pessoas na fila.
+
+Caixa I: 12 minutos de atendimento x 5 pessoas = 60 minutos de espera total.
+Caixa II: 6 minutos de atendimento x 9 pessoas = 54 minutos de espera total.
+Caixa III: 5 minutos de atendimento x 6 pessoas = 30 minutos de espera total.
+Caixa IV: 15 minutos de atendimento x 2 pessoas = 30 minutos de espera total.
+Caixa V: 9 minutos de atendimento x 3 pessoas = 27 minutos de espera total.
+
+O menor tempo total de espera é na Caixa V, com 27 minutos.
+
+Portanto, a resposta é:
+
+resposta=['B']

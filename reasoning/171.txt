@@ -1,0 +1,13 @@
+O enunciado da questão informa que o preço y do concreto bombeado é composto por duas partes:
+
+1. Uma taxa fixa (chamada de taxa de bombeamento), que custa R$ 500,00.
+2. Uma variável, que depende do volume x de concreto utilizado, sendo que o metro cúbico do concreto bombeado é de R$ 250,00.
+
+Podemos então montar uma expressão para o preço y em função do volume x:
+
+y = (taxa fixa) + (preço por metro cúbico × volume)
+y = 500 + 250x
+
+Comparando essa expressão com as opções apresentadas na imagem, a alternativa que descreve corretamente a relação entre o preço y e o volume x em metros cúbicos é a alternativa D (y = 250x + 500).
+
+resposta=['D']

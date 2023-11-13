@@ -1,0 +1,47 @@
+Para resolver essa questão, seguiremos os seguintes passos:
+
+1. Primeiramente, vamos identificar as informações importantes fornecidas na questão.
+   - O custo fixo diário é R$ 900,00.
+   - O pescador vende o peixe a R$ 5,00 por kg.
+   - O lucro mínimo desejado por dia é R$ 800,00.
+   - No final de um dia, o pescador consegue pescar 180 kg de peixe, o que é suficiente para cobrir o custo fixo diário.
+   - Cada ajudante custa R$ 250,00 por dia.
+   - Sem ajudantes, o pescador consegue 180 kg de peixe.
+   - Cada ajudante aumenta a pesca diária em 100 kg a partir do segundo ajudante.
+
+2. Calcular a receita obtida pela venda dos 180 kg de peixe.
+   180 kg * R$ 5,00/kg = R$ 900,00
+
+3. Notamos que a venda de 180 kg cobre exatamente o custo fixo diário, portanto, para obter lucro, é necessário produzir mais do que isso.
+
+4. Cada ajudante contratado custará R$ 250,00. Se ele contratar um ajudante, receberá mais 100 kg de peixe por dia, o que aumenta a receita em R$ 500,00 (100 kg * R$ 5,00).
+
+5. Precisamos encontrar o número de ajudantes necessário para que o lucro mínimo de R$ 800,00 seja atingido, considerando que os primeiros 180 kg já cobriram o custo fixo e o primeiro ajudante adicionará 100 kg.
+
+6. Para o primeiro ajudante:
+   Receita com a venda de 100 kg = R$ 500,00
+   Custo do ajudante = R$ 250,00
+   Lucro com 1 ajudante = R$ 500,00 - R$ 250,00 = R$ 250,00
+
+   Ainda não atingimos o lucro mínimo desejado de R$ 800,00.
+
+7. A partir do segundo ajudante, cada um adicionará mais 100 kg. Para calcular o lucro adicional a partir do segundo ajudante, multiplicamos a quantidade adicional de peixe (100 kg) pelo preço de venda (R$ 5,00) e subtraímos o custo de cada ajudante (R$ 250,00).
+
+8. Calculando para o segundo ajudante:
+   Receita com a venda de 100 kg adicionais = R$ 500,00
+   Custo do segundo ajudante = R$ 250,00
+   Lucro adicional com 2 ajudantes = 2 * (R$ 500,00 - R$ 250,00) = R$ 500,00
+
+   Somando o lucro com 2 ajudantes ao lucro inicial:
+   Lucro total = R$ 250,00 (com 1 ajudante) + R$ 500,00 (com o segundo ajudante) = R$ 750,00
+
+   Ainda estamos abaixo do lucro mínimo desejado de R$ 800,00.
+
+9. Para o terceiro ajudante, repetimos o mesmo processo. O lucro adicional será mais R$ 250,00 (R$ 500,00 - R$ 250,00).
+
+10. Somamos o lucro adicional do terceiro ajudante ao lucro já calculado:
+    Lucro total com 3 ajudantes = R$ 750,00 (com 2 ajudantes) + R$ 250,00 (com o terceiro ajudante) = R$ 1000,00
+
+Com três ajudantes, o pescador ultrapassa o lucro mínimo desejado de R$ 800,00, atingindo R$ 1000,00. Portanto, a quantidade mínima de ajudantes que o pescador precisa contratar para conseguir o lucro diário pretendido é de 3.
+
+resposta=['C']

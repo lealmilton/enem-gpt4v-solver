@@ -1,0 +1,24 @@
+Primeiro, vamos entender a situação apresentada na imagem e resolver o problema de forma passo a passo:
+
+1. A creche possui 10 salas, cada uma com capacidade para atender 10 crianças, totalizando 100 vagas disponíveis.
+
+2. A lista de espera do ano passado tinha 400 nomes.
+
+3. Esse ano, o número de nomes na lista de espera aumentou em 10%, então temos:
+   400 nomes + 10% de 400 nomes = 400 nomes + 40 nomes = 440 nomes na lista de espera este ano.
+
+4. Para o próximo ano, a direção decidiu que o número de nomes na lista de espera será 25% menor que este ano. Então, o número de nomes na lista de espera para o próximo ano será:
+   440 nomes - 25% de 440 nomes = 440 nomes - 110 nomes = 330 nomes na lista de espera para o próximo ano.
+
+5. Como cada sala comporta 10 crianças e já existem 10 salas, temos um total de 100 vagas. Precisamos acomodar os 330 nomes que estarão na lista de espera no próximo ano, então precisamos de salas para as 230 crianças restantes (330 nomes - 100 vagas = 230 crianças restantes).
+
+6. Dividindo o número de crianças restantes pela capacidade de cada sala, temos:
+   230 crianças ÷ 10 crianças por sala = 23 salas.
+
+7. No entanto, como não podemos ter uma fração de uma sala, precisamos arredondar para cima para o número inteiro mais próximo, o que significa que precisaremos de 23 salas completas para acomodar as 230 crianças restantes.
+
+8. Então, temos as 10 salas originais mais as 23 salas adicionais que precisam ser construídas, totalizando 33 salas necessárias para acomodar toda a demanda.
+
+Portanto, o número mínimo de salas que deverá ser construídas é 33.
+
+resposta=['E']

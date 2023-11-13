@@ -1,0 +1,24 @@
+Para resolver a questão, primeiro precisamos calcular a média mensal de precipitação para os pares de meses consecutivos e, então, escolher aquele com a maior média. O período da média consecutiva deve cobrir de outubro de 2020 a março de 2021.
+
+Calculando a média para cada par de meses consecutivos:
+
+- Outubro e Novembro: 
+  Média = (250 mm + 150 mm) / 2 = 400 mm / 2 = 200 mm
+
+- Novembro e Dezembro:
+  Média = (150 mm + 200 mm) / 2 = 350 mm / 2 = 175 mm
+
+- Dezembro e Janeiro:
+  Média = (200 mm + 450 mm) / 2 = 650 mm / 2 = 325 mm
+
+- Janeiro e Fevereiro:
+  Média = (450 mm + 100 mm) / 2 = 550 mm / 2 = 275 mm
+
+- Fevereiro e Março:
+  Média = (100 mm + 200 mm) / 2 = 300 mm / 2 = 150 mm
+
+O par de meses consecutivos com a maior média mensal de precipitação é Dezembro e Janeiro, com uma média de 325 mm.
+
+Portanto, a resposta correta é:
+
+resposta=['C']

@@ -1,0 +1,69 @@
+Para resolver esta questão, precisamos determinar o volume da escultura final e depois calcular a massa com base na densidade fornecida de 0,6 g/cm³ e utilizando a aproximação de π = 3.
+
+Primeiro, calculamos o volume do cone maior (antes de remover qualquer parte). O volume \( V \) de um cone é dado por:
+
+\[ V = \frac{1}{3} \pi r^2 h \]
+
+onde \( r \) é o raio da base e \( h \) é a altura do cone.
+
+Para o cone maior, temos \( h = 36 \) cm e o diâmetro da base \( d = 18 \) cm, logo o raio \( r = \frac{d}{2} = 9 \) cm.
+
+Substituindo os valores, temos:
+
+\[ V_{\text{cone maior}} = \frac{1}{3} \times 3 \times 9^2 \times 36 \]
+
+\[ V_{\text{cone maior}} = \frac{1}{3} \times 3 \times 81 \times 36 \]
+
+\[ V_{\text{cone maior}} = 81 \times 36 = 2916 \text{ cm}^3 \]
+
+Em seguida, vamos calcular o volume do cone menor que é removido. O cone menor tem as mesmas proporções que o cone maior, então podemos usar a semelhança de triângulos para encontrar a altura do cone menor sabendo que o raio é 3 cm (metade do raio do cone maior) e que a relação das alturas será a mesma da relação dos raios.
+
+\[ \frac{h_{\text{menor}}}{36} = \frac{3}{9} \]
+
+\[ h_{\text{menor}} = \frac{36}{3} = 12 \text{ cm} \]
+
+Agora calculamos o volume do cone menor:
+
+\[ V_{\text{cone menor}} = \frac{1}{3} \pi r^2 h \]
+
+\[ V_{\text{cone menor}} = \frac{1}{3} \times 3 \times 3^2 \times 12 \]
+
+\[ V_{\text{cone menor}} = 3 \times 9 \times 12 \]
+
+\[ V_{\text{cone menor}} = 27 \times 12 = 324 \text{ cm}^3 \]
+
+O volume do tronco de cone é então:
+
+\[ V_{\text{tronco}} = V_{\text{cone maior}} - V_{\text{cone menor}} \]
+
+\[ V_{\text{tronco}} = 2916 - 324 = 2592 \text{ cm}^3 \]
+
+Por fim, calculamos o volume do cilindro removido. O volume do cilindro (\( V \)) é dado por:
+
+\[ V = \pi r^2 h \]
+
+Utilizando o raio do cilindro de 3 cm e a altura igual à do cone maior (36 cm), temos:
+
+\[ V_{\text{cilindro}} = 3 \times 3^2 \times 36 \]
+
+\[ V_{\text{cilindro}} = 3 \times 9 \times 36 \]
+
+\[ V_{\text{cilindro}} = 27 \times 36 = 972 \text{ cm}^3 \]
+
+O volume final da escultura será:
+
+\[ V_{\text{final}} = V_{\text{tronco}} - V_{\text{cilindro}} \]
+
+\[ V_{\text{final}} = 2592 - 972 = 1620 \text{ cm}^3 \]
+
+Agora, calculamos a massa utilizando a densidade de 0,6 g/cm³:
+
+\[ m = \text{densidade} \times V_{\text{final}} \]
+
+\[ m = 0,6 \times 1620 \]
+
+\[ m = 972 \text{ g} \]
+
+A resposta correta é:
+
+resposta=['D']

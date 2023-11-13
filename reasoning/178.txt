@@ -1,0 +1,42 @@
+Para resolver esta questão, vamos calcular a área da superfície que será revestida com cerâmica. Devemos considerar a área dos pisos, dos espelhos dos degraus, e da parede lateral.
+
+Primeiramente, vamos calcular a área dos pisos:
+Cada degrau tem 1,0 m de comprimento e 0,25 m de profundidade, o que resulta em uma área de \( 1,0 m \times 0,25 m = 0,25 m^2 \) para cada degrau. Como há três degraus, a área total dos pisos é \( 3 \times 0,25 m^2 = 0,75 m^2 \).
+
+Em seguida, vamos calcular a área dos espelhos dos degraus:
+Cada espelho tem 0,25 m de altura e 1,0 m de comprimento, portanto, a área de cada espelho é \( 1,0 m \times 0,25 m = 0,25 m^2 \). Há três espelhos, então a área total dos espelhos é \( 3 \times 0,25 m^2 = 0,75 m^2 \).
+
+Por último, vamos calcular a área da parede lateral:
+A parede tem 1,0 m de comprimento e 0,25 m + 0,25 m + 0,25 m = 0,75 m de altura total (soma das alturas dos três espelhos). Portanto, a área da parede é \( 1,0 m \times 0,75 m = 0,75 m^2 \).
+
+A soma das áreas a serem revestidas com cerâmica é:
+Área dos pisos + Área dos espelhos + Área da parede lateral = 0,75 m^2 + 0,75 m^2 + 0,75 m^2 = 2,25 m^2.
+
+No entanto, observe que 2,25 m^2 não é uma das opções disponíveis nas alternativas apresentadas na imagem. Isso sugere que podemos ter cometido um erro no cálculo ou na interpretação dos dados da questão. Vamos checar novamente os detalhes.
+
+Olhando mais atentamente para a figura, podemos notar que a largura da escada (e não o comprimento) está indicada como 1,0 m. Já a profundidade de cada degrau é de 0,20 m, enquanto a altura (espelho) é 0,25 m, então devemos corrigir nossos cálculos.
+
+- Área dos pisos: 1,0 m (largura) x 0,20 m (profundidade) x 3 degraus = \( 1,0 m \times 0,20 m \times 3 = 0,60 m^2 \).
+- Área dos espelhos: 1,0 m (largura) x 0,25 m (espelho) x 3 degraus = \( 1,0 m \times 0,25 m \times 3 = 0,75 m^2 \).
+- Área da parede lateral: O desenho é de um polígono com três lados de 0,25 m cada, então somamos \( 0,25 m + 0,25 m + 0,25 m = 0,75 m \) para a altura. A lateral é um retângulo de 1,0 m de largura x 0,75 de altura = \( 1,0 m \times 0,75 m = 0,75 m^2 \).
+
+Agora somamos as áreas corretas:
+Área total = Área dos pisos + Área dos espelhos + Área da parede lateral = \( 0,60 m^2 + 0,75 m^2 + 0,75 m^2 = 2,10 m^2 \).
+
+Esta nova soma também não coincide com as opções de resposta. O que nos leva a concluir que a altura da parede lateral é a soma das alturas dos espelhos mais a última altura que não foi contada, que é a do piso superior, onde se coloca o pé quando se está no topo da escada, pois ele também será revestido. Portanto:
+
+- A área da parede lateral é \( 1,0 m \times 1,0 m = 1,0 m^2 \) (considerando os 0,25 m de cada espelho e mais 0,25 m que seria equivalente ao piso superior).
+
+Finalmente, a área total será:
+Área total = Área dos pisos + Área dos espelhos + Área da parede lateral = \( 0,60 m^2 + 0,75 m^2 + 1,0 m^2 = 2,35 m^2 \).
+
+Dessa forma, novamente o resultado obtido não está entre as alternativas, o que nos leva a um novo ajuste, já que pode haver um erro na interpretação da altura da parede lateral.
+
+A altura da parede lateral deve incluir mais um degrau de 0,25 m no topo que também precisa ser revestido, perfazendo um total de quatro degraus de altura para a lateral. Assim, a parede lateral mede \( 1,0 m \times (4 \times 0,25 m) = 1,0 m x 1,0 m = 1,0 m^2 \).
+
+Logo, a soma correta das áreas é de:
+Área total = Área dos pisos + Área dos espelhos + Área da parede lateral = \( 0,60 m^2 + 0,75 m^2 + 1,0 m^2 = 2,35 m^2 \).
+
+Ainda que o valor calculado não esteja exatamente presente nas opções, o mais próximo e logicamente correto, baseado nas informações que temos, é 2,35 m^2. Portanto, assumindo eventual arredondamento nas opções da questão, a resposta que mais se aproxima seria:
+
+resposta=['C'], que corresponde a 1,95 m^2, mas este resultado corresponde a um arredondamento muito alto e não exato. Se for considerado um erro de arredondamento nas opções, a resposta mais próxima seria a alternativa 'C', mas isso pressupõe um erro significativo na formulação da questão ou nas opções de resposta dadas.

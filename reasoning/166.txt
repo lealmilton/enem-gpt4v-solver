@@ -1,0 +1,19 @@
+Para resolver essa questão, precisamos utilizar o conceito de probabilidade. A probabilidade de um evento é a razão entre o número de casos favoráveis e o número de casos possíveis.
+
+De acordo com o texto, a urna A tem uma probabilidade de 20% (ou 1/5) de retirar uma bolinha preta, e a urna B tem uma probabilidade de 25% (ou 1/4) de retirar uma bolinha preta. Sabendo que a urna B tem 4 bolinhas pretas e 12 brancas, isso totaliza 16 bolinhas.
+
+Queremos alterar a quantidade de bolinhas brancas na urna B para que a probabilidade de retirar uma bolinha preta seja menor ou igual a 1/7 (já que esta seria menor que as probabilidades de ambas as urnas A e B atualmente).
+
+Se x é o número de bolinhas brancas que precisamos adicionar para que a probabilidade seja de 1/7, teríamos então um total de 4 bolinhas pretas e 12 + x bolinhas brancas. Precisamos da fração 4/(16+x) ser menor ou igual a 1/7:
+
+4/(16+x) ≤ 1/7
+Multiplicando ambos os lados pelo denominador (16+x), temos:
+4 ≤ (16+x)/7
+
+Multiplicando ambos os lados por 7:
+28 ≤ 16+x
+x ≥ 12
+
+Isso significa que precisaremos de pelo menos 12 bolinhas brancas adicionais para que a probabilidade de tirar uma bolinha preta seja menor ou igual a 1/7.
+
+resposta=['B']

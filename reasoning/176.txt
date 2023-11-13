@@ -1,0 +1,25 @@
+Para resolver essa questão, precisamos analisar o gráfico e identificar os intervalos de tempo nos quais a intensidade do sinal de internet é zero. Estes serão os períodos em que a pessoa ficou sem receber sinal de internet.
+
+Analisando o gráfico, vemos que a intensidade do sinal de internet cai para zero nos seguintes intervalos de tempo:
+
+- De 2 a 4 minutos.
+- De 12 a 16 minutos.
+- De 18 a 22 minutos.
+- De 26 a 30 minutos.
+
+Agora vamos somar a duração desses períodos para encontrar o total de minutos sem sinal de internet:
+
+- De 2 a 4 minutos = 2 minutos
+- De 12 a 16 minutos = 4 minutos
+- De 18 a 22 minutos = 4 minutos
+- De 26 a 30 minutos = 4 minutos
+
+Somando todos esses intervalos, temos:
+
+2 + 4 + 4 + 4 = 14 minutos
+
+Portanto, a pessoa ficou 14 minutos sem receber sinal de internet durante a caminhada de 30 minutos.
+
+Assim, a resposta correta é:
+
+resposta=['D']

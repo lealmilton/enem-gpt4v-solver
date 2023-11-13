@@ -1,0 +1,20 @@
+Para resolver essa questão, precisamos calcular a média dos salários dos 100 funcionários da empresa. De acordo com o quadro fornecido na imagem, temos 75 funcionários no setor de produção ganhando R$ 2.000,00 cada um e 25 funcionários no setor de administração ganhando R$ 7.000,00 cada um.
+
+Vamos primeiro calcular a soma total dos salários, multiplicando o número de funcionários pelo salário em cada setor:
+
+Salários do setor de produção:
+75 funcionários x R$ 2.000,00 = R$ 150.000,00
+
+Salários do setor de administração:
+25 funcionários x R$ 7.000,00 = R$ 175.000,00
+
+Agora, somamos os valores obtidos para obter o valor total pago em salários:
+R$ 150.000,00 (produção) + R$ 175.000,00 (administração) = R$ 325.000,00
+
+Para encontrar a média dos salários, dividimos a soma total dos salários pelo número total de funcionários:
+
+Média dos salários = R$ 325.000,00 / 100 funcionários = R$ 3.250,00
+
+Portanto, a média dos salários dos 100 funcionários dessa empresa é R$ 3.250,00.
+
+resposta=['C']

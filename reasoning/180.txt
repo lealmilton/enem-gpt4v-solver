@@ -1,0 +1,43 @@
+Para solucionar a questão, vamos definir o preço unitário do tíquete azul como "a" e o preço unitário do tíquete vermelho como "r". Segundo a questão:
+
+1. Duas cartelas de tíquetes azuis e uma cartela de tíquetes vermelhos custam R$ 32,40.
+2. O preço de um tíquete azul menos o preço de um tíquete vermelho é o mesmo que o preço de um tíquete vermelho mais cinco centavos.
+
+Com essas informações, podemos formar as seguintes equações:
+
+\[ 2 \times 9a + 9r = 32,40 \]
+\[ a - r = r + 0,05 \]
+
+Isso nos dá duas equações:
+
+1. \( 18a + 9r = 32,40 \)
+2. \( a = 2r + 0,05 \)
+
+Pela primeira equação, podemos isolar "a":
+
+\[ a = \frac{32,40 - 9r}{18} \]
+
+Substituindo isso na segunda equação, obtemos:
+
+\[ \frac{32,40 - 9r}{18} = 2r + 0,05 \]
+
+Multiplicando ambos os lados por 18 para eliminar o denominador, obtemos:
+
+\[ 32,40 - 9r = 36r + 0,9 \]
+
+Agrupando os termos "r" e os constantes cada um do seu lado da equação:
+
+\[ 32,40 - 0,9 = 36r + 9r \]
+\[ 31,50 = 45r \]
+
+Dividindo ambos os lados por 45, encontramos o valor de "r":
+
+\[ r = \frac{31,50}{45} = 0,70 \]
+
+Agora que sabemos que o preço de um tíquete vermelho é de R$ 0,70, podemos calcular o preço de uma cartela de tíquetes vermelhos, que contém 9 tíquetes:
+
+\[ 9 \times 0,70 = 6,30 \]
+
+Portanto, o preço de uma cartela de tíquetes vermelhos é R$ 6,30.
+
+resposta=['B']

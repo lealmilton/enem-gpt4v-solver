@@ -1,0 +1,19 @@
+Para resolver essa questão, vamos analisar o gráfico e determinar em quantos instantes a criptomoeda A estava mais valorizada do que a criptomoeda B. Observamos os valores no gráfico onde a linha que representa a criptomoeda A está acima da linha que representa a criptomoeda B.
+
+Começamos contando no gráfico:
+
+9h - A está acima de B.
+10h - A está acima de B.
+11h - A está ao mesmo nível de B (não conta pois a questão pede por mais valorizada).
+12h - A está abaixo de B.
+13h - A está abaixo de B.
+14h - A está acima de B.
+15h - A está abaixo de B.
+16h - A está ao mesmo nível de B (não conta pois a questão pede por mais valorizada).
+17h - A está abaixo de B.
+
+Logo, em 3 instantes (9h, 10h, e 14h), a criptomoeda A estava mais valorizada do que a criptomoeda B.
+
+Portanto, a resposta correta é:
+
+resposta=['A']

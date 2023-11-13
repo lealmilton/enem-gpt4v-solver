@@ -1,0 +1,19 @@
+Para resolver essa questão, precisamos primeiro entender a expressão para o cálculo do montante diário arrecadado (V_0), que é dado por \( V(x) = \frac{-x^2}{4} + 10x + 105 \), onde \(x\) representa os dias do mês, variando de 1 a 30.
+
+A questão nos pede para encontrar o menor montante diário V_0, o que significa que precisamos encontrar o mínimo da função quadrática dada. Como a função tem um coeficiente negativo na frente do \( x^2 \), a parábola que descreve a função é voltada para baixo, o que implica que seu ponto máximo é o ponto de interesse.
+
+Para encontrar o máximo de uma função quadrática, podemos usar o vértice da parábola, que é dado por \( x_v = - \frac{b}{2a} \), onde \(a\) e \(b\) são os coeficientes de \( x^2 \) e \( x \), respectivamente, na expressão da função.
+
+Na função dada, \( a = -\frac{1}{4} \) e \( b = 10 \), portanto:
+\[ x_v = - \frac{10}{2 \cdot -\frac{1}{4}} = - \frac{10}{-\frac{1}{2}} = -10 \cdot (-2) = 20 \]
+
+Isso significa que no dia 20 obtém-se o valor máximo do montante diário arrecadado, e porque queremos o mínimo, o último dia (dia 30) ou o primeiro dia (dia 1) deverá fornecer o valor do mínimo montante, uma vez que são simétricos em relação ao ponto máximo. Como a função é simétrica, podemos calcular o valor para qualquer um dos dias extremos (1 ou 30).
+
+Vamos calcular para \( x = 1 \):
+\[ V(1) = \frac{-(1)^2}{4} + 10 \cdot 1 + 105 = -\frac{1}{4} + 10 + 105 = -0.25 + 10 + 105 = 114.75 \]
+
+Dado que as classificações estão em milhares e essa é uma função contínua, o menor valor alcançado será um pouco menor do que 114.75 ao avançarmos para o dia 30. Contudo, para fins desta classificação, nos referimos aos valores em na casa de milhares cheios, portanto, mesmo que o valor real seja um pouco menor, ele se enquadra na categoria "Ótimo", já que é maior do que 24.
+
+Então, consideraremos que o menor montante diário V_0 é maior ou igual a 24 mil reais, e a resposta correta é:
+
+resposta=['A']

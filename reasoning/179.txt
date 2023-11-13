@@ -1,0 +1,12 @@
+Para resolver a questão, devemos seguir as instruções dadas passo a passo:
+
+1. A pessoa começou a subir uma das escadas e parou na posição indicada pela estrela, que está localizada na fileira E entre as posições 6 e 7.
+2. A pessoa está orientada para o norte, conforme o mapa indica.
+3. Ela deve sair do ponto onde parou, continuar subindo pela escada e então, após sair da escada,
+4. Deve passar por mais quatro fileiras na direção norte (o que a leva para a fileira J), pois está na fileira E e precisa passar pelas fileiras F, G, H, e I para chegar à fileira J.
+5. Ao olhar para a direita, considerando que está voltada para o norte, a sua direita será a direção leste.
+6. Sua poltrona será a terceira, então ela deve contar três posições a partir da direção leste (para a direita).
+
+Portanto, a poltrona correta será a terceira na fileira J, que está na coluna 9. A resposta correta é J9.
+
+resposta=['J9']

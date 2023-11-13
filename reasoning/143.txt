@@ -1,0 +1,19 @@
+Para resolver a questão apresentada na imagem, devemos entender o que está sendo pedido e como relacionar as unidades fornecidas.
+
+O parâmetro economia de corrida (EC) é calculado pela razão entre o consumo de oxigênio, em mililitro por minuto (mL/min), e a massa, em quilograma (kg), do atleta. Portanto, o EC é dado por:
+
+EC = consumo de oxigênio / massa do atleta
+
+Substituindo as unidades:
+
+EC = (mL/min) / kg
+
+Para encontrar a unidade de medida da grandeza descrita pelo parâmetro EC, basta simplificar a equação acima:
+
+EC = mL/(min·kg)
+
+Como resultado, temos que a unidade de medida do parâmetro EC é mL/(min·kg).
+
+Portanto, a resposta correta é:
+
+resposta=['B']

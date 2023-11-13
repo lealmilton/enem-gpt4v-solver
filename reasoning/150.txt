@@ -1,0 +1,37 @@
+Vamos resolver a questão apresentada na imagem passo a passo:
+
+Primeiramente, precisamos calcular o volume atual do reservatório de água. O reservatório é um cilindro, e o volume de um cilindro é dado por V = πr²h, onde π é aproximadamente 3, r é o raio da base e h é a altura da coluna de água. Na questão, foi fornecido que podemos usar 3 como aproximação para π, o raio da base é de 5 metros e a altura da coluna de água é de 1,5 metros. Portanto, o volume atual é:
+
+V = πr²h
+V = 3 * (5)² * 1,5
+V = 3 * 25 * 1,5
+V = 3 * 37,5
+V = 112,5 m³
+
+Convertendo para litros (sabendo que 1 m³ equivale a 1000 litros), temos:
+
+112,5 m³ = 112,5 * 1000 = 112.500 litros
+
+O consumo diário dos 75 moradores é de 200 litros por pessoa, logo:
+
+Consumo diário total = 75 * 200
+Consumo diário total = 15.000 litros
+
+Agora vamos calcular o total de consumo para os próximos 10 dias:
+
+Consumo em 10 dias = 10 * 15.000
+Consumo em 10 dias = 150.000 litros
+
+Portanto, para que o reservatório não fique sem água nos próximos 10 dias, a quantidade de água atual deve ser maior ou igual ao consumo dos próximos 10 dias. Consideremos que toda a água será consumida exatamente:
+
+112.500 litros atuais - 150.000 litros necessários = -37.500 litros
+
+Isso significa que faltam 37.500 litros para atender ao consumo dos próximos 10 dias. Essa é a quantidade total de água que precisa ser economizada pelos 75 moradores em 10 dias. Para descobrir a economia por morador, por dia, podemos dividir esse número por 75 e depois por 10:
+
+Economia por morador por dia = -37.500 / (75 * 10)
+Economia por morador por dia = -37.500 / 750
+Economia por morador por dia = -50 litros
+
+Os moradores precisam economizar, cada um, 50 litros de água por dia. Portanto, a resposta correta para a questão é:
+
+resposta=['A']

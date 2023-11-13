@@ -1,0 +1,15 @@
+Para resolver a questão, precisamos identificar qual é a escala correta que representa as medidas reais na tela do instrumento de voo. A questão informa que a maior altitude alcançada pelo voo foi de 5 km e que a medida de cada quadradinho na malha é de 1 cm na tela do instrumento.
+
+Primeiro, vamos considerar as unidades:
+- 5 km é o mesmo que 5.000 metros, pois cada quilômetro tem 1.000 metros.
+
+Agora, vamos analisar as escalas fornecidas e comparar com as informações dadas:
+- Uma escala de 1 : 5 significa que 1 unidade na tela equivale a 5 unidades na realidade. Essa escala significaria que 1 cm no instrumento é igual a 5 cm na realidade, o que é muito pequeno para representar 5.000 metros.
+- Uma escala de 1 : 15 significa que cada centímetro no instrumento representa 15 metros na realidade. Isso ainda é muito pequeno para representar 5 km.
+- Uma escala de 1 : 115 significa que cada centímetro no instrumento representa 115 metros na realidade. Isso ainda não alcança os 5.000 metros representantes de 5 km.
+- Uma escala de 1 : 500 significa que cada centímetro na tela representa 500 metros na realidade. Multiplicando 500 metros por 10 (já que 10 cm seriam o comprimento da tela se cada centímetro representasse 500 metros), teríamos apenas 5.000 metros, ou seja, 5 km, o que corresponde à informação da maior altitude alcançada pelo voo.
+- Uma escala de 1 : 500.000 significaria que cada centímetro na tela representa 500.000 metros na realidade, o que é uma escala muito grande para o propósito de representar a altitude de um voo.
+
+Portanto, a única escala que faz sentido e permite representar a altitude de 5 km (ou 5.000 metros) com uma tela onde cada centímetro representa 1 cm do comprimento é a de 1 : 500.
+
+resposta=['D']

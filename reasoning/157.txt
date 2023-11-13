@@ -1,0 +1,45 @@
+Para resolver essa questão, precisamos entender como calcular as probabilidades de alguém descobrir cada um dos tipos de senha ao acaso na primeira tentativa. 
+
+De acordo com o enunciado, temos os seguintes caracteres permitidos:
+- 10 algarismos (de 0 a 9)
+- 26 letras minúsculas do alfabeto
+- 26 letras maiúsculas do alfabeto
+- 6 caracteres especiais (!, @, #, $, *, &)
+
+Isso totaliza 68 caracteres possíveis (10 + 26 + 26 + 6).
+
+Agora, vamos calcular a probabilidade para cada tipo de senha:
+
+Tipo I: 
+A senha do tipo I é formada por qualquer combinação de quatro caracteres entre os permitidos.
+Então, temos 68 opções para cada um dos quatro caracteres da senha.
+A probabilidade de alguém adivinhar essa senha ao acaso é 1 em \(68^4\).
+
+Tipo II: 
+A senha do tipo II é formada por cinco caracteres distintos, começando com três letras seguidas por um algarismo e, ao final, um caracter especial.
+Para as três letras, temos 52 opções (26 minúsculas + 26 maiúsculas) e devem ser distintas, o que nos dá 52 * 51 * 50 opções.
+Para o algarismo, temos 10 opções.
+Para o caracter especial, temos 6 opções.
+A probabilidade de alguém adivinhar essa senha é 1 em (52 * 51 * 50 * 10 * 6).
+
+Tipo III: 
+A senha do tipo III é formada por seis caracteres distintos, começando por duas letras, seguidas por dois algarismos e, ao final, dois caracteres especiais.
+Para as duas letras, temos 52 opções para a primeira e 51 para a segunda (já que não podem ser iguais).
+Para os dois algarismos, temos 10 opções para o primeiro e 9 para o segundo (também diferentes).
+Para os dois caracteres especiais, temos 6 opções para o primeiro e 5 para o segundo (diferentes entre si).
+A probabilidade de alguém adivinhar essa senha é 1 em (52 * 51 * 10 * 9 * 6 * 5).
+
+Para determinar qual senha tem a menor probabilidade de ser descoberta ao acaso, podemos comparar a quantidade de combinações possíveis para cada tipo. Quanto maior o número de combinações possíveis, menor a probabilidade de acertar a senha ao acaso.
+
+Sem efetuar o cálculo exato de cada probabilidade, sabemos que o número de combinações possíveis para o Tipo I será inferior aos demais, pois envolve menos caracteres e permite repetição. Portanto, a senha do Tipo I terá a maior probabilidade de ser descoberta ao acaso e as do Tipo II e Tipo III terão uma probabilidade menor.
+
+Observando o número de caracteres de cada senha:
+- Tipo I: 4 caracteres, combinações com repetição.
+- Tipo II: 5 caracteres, combinações sem repetição e com restrição de ordem de tipos de caracteres.
+- Tipo III: 6 caracteres, combinações sem repetição e com restrição de ordem de tipos de caracteres.
+
+Dada a maior quantidade de caracteres e as restrições adicionais de Tipo III, a senha do Tipo III tem a menor probabilidade de ser descoberta ao acaso, seguida pelo Tipo II e depois Tipo I.
+
+Portanto, a resposta correta é:
+
+resposta=['C']
