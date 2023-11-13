@@ -9,7 +9,7 @@ As an initial experiment, I asked the model to solve the mathematics questions. 
 Follow these steps to get the Enem solver up and running:
 
 1. Clone the repo with the Enem 2023 exam content.
-2. Inside the `ENEM23` directory, whip up a `.env` file with your OpenAI API key (note: this API key needs to have access to GPT-4V):
+2. Inside the `enem-gpt4v-solver` directory, whip up a `.env` file with your OpenAI API key (note: this API key needs to have access to GPT-4V):
 3. 🗝️ Create a `.env` file within the project directory and insert your OpenAI API key like so:
 
     ```env
